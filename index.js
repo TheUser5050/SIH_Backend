@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.post('/suggest-career', (req, res) => {
   const data = req.body
-  res.json({ message: 'Data received successfully', received: data });
+  res.json({});
 })
 
 app.listen(port, () => {
